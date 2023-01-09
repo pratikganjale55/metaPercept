@@ -1,0 +1,21 @@
+.introContainer{
+    background-image: linear-gradient(to bottom left, rgb(168, 207, 207), rgb(24, 145, 214));
+    padding: 3%;
+    color: white;
+}
+
+
+.introContainer div{
+   text-align: center;
+   padding: 1%;
+}
+.readMoreBtn{
+      height: 30px;
+      width: 6rem;
+      background-color: white;
+      border: 2px solid white;
+      cursor: pointer;
+}
+.readMoreBtn:hover{
+    background-color: rgb(222, 222, 252);
+}

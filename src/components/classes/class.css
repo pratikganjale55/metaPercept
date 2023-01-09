@@ -1,0 +1,91 @@
+.classesMainContainer{
+    
+    padding: 2%;
+}
+.text{
+    text-align: center;
+      font-size: 3rem;
+}
+.intText{
+    text-align: center;
+}
+.grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 4rem;
+      padding: 4%;
+      
+}
+.gridChild {
+    /* border: 1px solid grey; */
+    padding: 1%;
+    box-shadow: 5px 10px #d1d0d0;
+}
+.gridChild img{
+      height: 200px;
+      width: 100%;
+      
+      background-color: rgb(187, 185, 185);
+}
+.gridChild h3, p {
+    padding: 1%;
+    /* text-align: start; */
+}
+.middleDiv{
+    text-align: left;
+}
+.classBtn{
+    overflow: hidden;
+    clear: both;
+
+}
+.classBtn button{
+   height: 30px;
+   width: 5rem;
+   float: bottom;
+   background-color: white;
+      border: 2px solid blue;
+      cursor: pointer;
+}
+.classBtn button:hover{
+    background-color: rgb(213, 213, 245);
+}
+
+
+@media only screen and (max-width : 600px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 2rem;
+        padding: 2%;
+        
+  }
+}
+@media only screen and (min-width : 600px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 2rem;
+        padding: 2%;
+        
+  }
+}
+
+@media only screen and (max-width : 768px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 2rem;
+        padding: 2%;
+        
+  }
+}
+@media only screen and (min-width : 768px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 2rem;
+        padding: 2%;
+        
+  }
+}
